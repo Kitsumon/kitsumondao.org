@@ -1,0 +1,64 @@
+.kmcdaoLogoIcon {
+  height: 25px;
+  width: 136px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.staking,
+.swap,
+.treasury,
+.vesting {
+  position: relative;
+  line-height: 160%;
+}
+.swap {
+  cursor: pointer;
+}
+.staking,
+.vesting {
+  align-self: stretch;
+  width: 57px;
+  display: none;
+}
+.daoNav {
+  width: 168px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 23px 17px;
+}
+.daoHeader,
+.daoHeaderNav {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  mix-blend-mode: normal;
+}
+.daoHeaderNav {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  max-width: 1400px;
+  gap: var(--gap-xl);
+}
+.daoHeader {
+  align-self: stretch;
+  height: 146px;
+  background: linear-gradient(87.15deg, #5c2563, #2b155d);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-kanit);
+}
+@media screen and (max-width: 1400px) {
+  .daoHeaderNav {
+    max-width: 100%;
+  }
+}

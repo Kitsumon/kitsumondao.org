@@ -1,0 +1,109 @@
+.layer1Icon {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  height: 33.1px;
+  width: 91.8px;
+  position: relative;
+}
+.layer1Icon1 {
+  height: 27.4px;
+  width: 83.2px;
+  position: relative;
+}
+.asset22,
+.footerContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.asset22 {
+  overflow: hidden;
+  padding: var(--padding-12xs) 0 0;
+  gap: 0 9px;
+}
+.footerContainer1 {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  box-sizing: border-box;
+  max-width: 1400px;
+}
+.divider {
+  align-self: stretch;
+  height: 3px;
+  position: relative;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.kitsumondaoLlc1 {
+  text-decoration: underline;
+}
+.kitsumondaoLlc {
+  color: inherit;
+}
+.projectName {
+  flex: 1;
+  display: inline-block;
+  min-width: 90px;
+  max-width: 100%;
+}
+.legal,
+.privacy,
+.projectName {
+  position: relative;
+  line-height: 160%;
+}
+.privacyLegal {
+  width: 165px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 5.16px;
+  margin-left: -6px;
+}
+.bottomFooterContainer,
+.bottomFooterInfo,
+.footerContainer {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.bottomFooterInfo {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  max-width: 100%;
+}
+.bottomFooterContainer,
+.footerContainer {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-11xl);
+  gap: 16px 0;
+  max-width: 1400px;
+}
+.footerContainer {
+  width: 1440px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: 11px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-kanit);
+}
+@media screen and (max-width: 1400px) {
+  .bottomFooterContainer,
+  .footerContainer1 {
+    max-width: 100%;
+  }
+}
