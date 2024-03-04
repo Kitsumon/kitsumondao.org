@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kitsumondao.org/static/css/main.fe7a29a4.css",
-    "main.js": "/kitsumondao.org/static/js/main.b49e94a1.js",
+    "main.css": "/kitsumondao.org/static/css/main.26baa102.css",
+    "main.js": "/kitsumondao.org/static/js/main.baae198b.js",
     "static/js/453.f7e91f2c.chunk.js": "/kitsumondao.org/static/js/453.f7e91f2c.chunk.js",
     "index.html": "/kitsumondao.org/index.html",
-    "main.fe7a29a4.css.map": "/kitsumondao.org/static/css/main.fe7a29a4.css.map",
-    "main.b49e94a1.js.map": "/kitsumondao.org/static/js/main.b49e94a1.js.map",
+    "main.26baa102.css.map": "/kitsumondao.org/static/css/main.26baa102.css.map",
+    "main.baae198b.js.map": "/kitsumondao.org/static/js/main.baae198b.js.map",
     "453.f7e91f2c.chunk.js.map": "/kitsumondao.org/static/js/453.f7e91f2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe7a29a4.css",
-    "static/js/main.b49e94a1.js"
+    "static/css/main.26baa102.css",
+    "static/js/main.baae198b.js"
   ]
 }
